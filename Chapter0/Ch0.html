@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Chapter 0</title>
+    <title> Chapter 0 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         h1 
         {
-            font-size: 40px; 
+            font-size: xx-large; 
             text-align: center;
         }
         img 
@@ -13,11 +14,37 @@
           display: block;
           margin-left: auto;
           margin-right: auto;
+          visibility: visible;
+          width: 75%;
+        }
+        .iphoneimg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            visibility: visible;
+            visibility: collapse;
+            display: none;
+            width: 100%;
+
         }
         audio {
             display: block;
             margin-left: auto;
           }
+
+          @media screen and (max-width: 420px)
+          {
+            img{
+                visibility: collapse;
+                display: none;
+            }
+
+            .iphoneimg{
+                visibility: visible;
+                display: block;
+            }
+
+          }      
     </style>
 </head>
 <body style="background-color: #000000;">
@@ -25,49 +52,24 @@
         <source src = "FrigidFortress[TowerHeroes].mp3">
     </audio>
     <h1 style="color:#99d9ea;">Chapter 0: Prologue</h1>
-    <img src = "./Ch0Pg1.png" style="width:75%;">
+    <img src = "./REch0pg1.png"  class="img">
+    <img src = "./REch0pg1.png"  class="iphoneimg">
     <pre>
+
+
+
+
 
 
 
 
 
     </pre>
-    <img src = "./Ch0Pg2.png" style="width:75%;">
+    <img src = "./REch0pg2.png"  class="img">
+    <img src = "./REch0pg2.png"  class="iphoneimg">
     <pre>
 
 
-
-
-
-
-        
-    </pre>
-    <img src = "./Ch0Pg3.png" style="width:75%;">
-    <pre>
-
-
-
-        
-
-
-
-    </pre>
-    <img src = "./Ch0Pg4.png" style="width:75%;">
-    <pre>
-
-
-
-
-
-        
-
-
-
-
-    </pre>
-    <img src = "./Ch0Pg5.png" style="width:75%;">
-    <pre>
 
 
 
@@ -80,24 +82,87 @@
 
         
     </pre>
-    <img src = "./Ch0Pg6.png" style="width:75%;">
+    <img src = "./REch0pg3.png"  class="img">
+    <img src = "./REch0pg3.png"  class="iphoneimg">
     <pre>
 
 
 
-        
+
+
+
+
+
+
 
 
 
         
     </pre>
-    <img src = "./Ch0Pg7.png" style="width:75%;">
+    <img src = "./REch0pg4.png"  class="img">
+    <img src = "./REch0pg4.png"  class="iphoneimg">
+    <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+        
     </pre>
+    <img src = "./REch0pg5.png"  class="img">
+    <img src = "./REch0pg5.png"  class="iphoneimg">
+    <pre>
 
 
-    <pre>   
+
+
+
+
+
+
+
+
+
+
+           
+    </pre>
+    <img src = "./REch0pg6.png"  class="img">
+    <img src = "./REch0pg6.png"  class="iphoneimg">
+    <pre>
+
+
+
+
+
+
+
+
+
+
+
+       
+    </pre>
+    <img src = "./REch0pg7.png" class="img" >
+    <img src = "./REch0pg7.png"  class="iphoneimg">
     
-    </pre>
+    <pre>
+
+
+
+
+
+
+
+
+
+    </pre>   
 </body>
 
 </html>
